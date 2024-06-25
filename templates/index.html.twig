@@ -1,5 +1,46 @@
 {% extends 'base.html.twig' %}
 
 {% block content %}
-Come back soon!
+<div id="characters">
+    {% for c in characters %}
+    <div class="character">
+        <h2>{{ c.name.full }}</h2>
+        <small class="author">By {{ c.author }}</small>
+        <div class="image-container" data-sfw="{{ c.image.sfw.id ~ "." ~ c.image.sfw.format }}" data-nsfw="{{ c.image.nsfw.id ~ "." ~ c.image.nsfw.format }}" data-sfw-size="{{ c.image.sfw.size | default("350") }}" data-nsfw-size="{{ c.image.nsfw.size | default("350") }}"></div>
+        <p class="short-description">
+            {{ c.description.short | replace({"\n": "<br>"}) | raw }}
+        </p>
+        <div class="data">
+            <div>
+                <div>
+                    <h3>Gender</h3>
+                    {{ c.data.gender | title }}
+                </div>
+                <div>
+                    <h3>Sex</h3>
+                    {{ c.data.sex | title }}
+                </div>
+                <div>
+                    <h3>Pronouns</h3>
+                    {{ c.data.pronouns }}
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h3>Height</h3>
+                    {{ (c.data.height / 100) | number_format(2) }}m
+                </div>
+                <div>
+                    <h3>Weight</h3>
+                    {{ c.data.weight }}kg
+                </div>
+                <div>
+                    <h3>Favorite Food</h3>
+                    {{ c.data.favoriteFood }}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
 {% endblock %}

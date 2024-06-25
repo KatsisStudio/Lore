@@ -1,0 +1,72 @@
+[
+    {
+        "author": "fractal",
+        "from": "ebereus",
+        "image": {
+            "sfw": {
+                "id": "ae9903fb-668e-4c97-a94b-b95eb1011896",
+                "format": "jpg",
+                "size": 500
+            },
+            "nsfw": {
+                "id": "f624ebf5-b80c-4c1c-8c18-048aa8c8bd21",
+                "format": "png",
+                "size": null
+            }
+        },
+        "name": {
+            "simple": "Aethra",
+            "full": "Aethra"
+        },
+        "data": {
+            "gender": "female",
+            "sex": "female",
+            "pronouns": "she/her",
+            "favoriteFood": "Golden Koberries",
+            "height": 160,
+            "weight": 70
+        },
+        "description": {
+            "short": "Fallen from the stars without recollection of her origin.\nThis adventurer explores the new world in front of her in search of satisfying her curiosity.",
+            "long": [
+                
+            ]
+        },
+        "note": null
+    },
+    {
+        "author": "fractal",
+        "from": "ebereus",
+        "image": {
+            "sfw": {
+                "id": "6ae2df8e-b532-4a24-819b-feb5894c7a4b",
+                "format": "png",
+                "size": 300
+            },
+            "nsfw": {
+                "id": "4d20e380-3dff-4f88-a21c-f598de8d02dd",
+                "format": "png",
+                "size": 250
+            }
+        },
+        "name": {
+            "simple": "Maki",
+            "full": "Maki"
+        },
+        "data": {
+            "gender": "female",
+            "sex": "female",
+            "pronouns": "she/her",
+            "favoriteFood": "Semen",
+            "height": 174,
+            "weight": 94
+        },
+        "description": {
+            "short": "Katsis obsessed with sex, will do anything to experiences new ways of being lewd.",
+            "long": [
+                
+            ]
+        },
+        "note": null
+    }
+]
